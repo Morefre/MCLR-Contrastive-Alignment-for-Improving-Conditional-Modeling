@@ -20,7 +20,7 @@ their connections and key differences in an otherwise fragmented literature.*
 To set up the environment and prepare training datasets, please refer to [preprocessing guide](preprocessing/README.md).
 
 ## 2. Sampling with Pretrained Models
-Our pretrained MCLR checkpoints are available on [Hugging Face](https://huggingface.co/SeanLi0210/MCLR-SiT-XL-2-REPA/blob/main/weights).
+Our pretrained MCLR checkpoints are available on [Hugging Face](https://huggingface.co/SeanLi0210/MCLR-SiT-XL-2-REPA/tree/main/weights).
 
 Please download the checkpoints and place them in the `weights/` directory.
 
