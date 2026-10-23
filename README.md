@@ -217,7 +217,7 @@ torchrun --nproc_per_node=4 calculate_metrics.py calc-inception  --images=out --
 ```
 
 ## 5. MCLR for EDM2
-Please see [here](https://github.com/Morefre/MCLR/tree/MCLR-for-EDM2) for the implementation of MCLR with EDM2.
+Please see [here](https://github.com/Morefre/MCLR-Contrastive-Alignment-for-Improving-Conditional-Modeling/tree/MCLR-for-EDM2) for the implementation of MCLR with EDM2.
 
 ## References
 Our implementation is based on [REPA](https://github.com/sihyun-yu/REPA?tab=readme-ov-file) and [EDM2](https://github.com/NVlabs/edm2).
