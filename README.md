@@ -232,3 +232,7 @@ If you find our work interesting, please consider citing
   year={2026}
 }
 ```
+
+## Contact
+
+- Xiang Li, forkobe@umich.edu
