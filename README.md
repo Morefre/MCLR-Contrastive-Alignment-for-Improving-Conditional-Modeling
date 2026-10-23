@@ -17,14 +17,14 @@ their connections and key differences in an otherwise fragmented literature.*
 ![Teaser image](SiT_Teaser.png)
 
 ## 1. Preparing the Environment and Training Datasets
-To set up the environment and prepare training datasets, please refer to [preprocessing guide](https://github.com/Morefre/MCLR/blob/MCLR-for-SIT-with-REPA/preprocessing/README.md).
+To set up the environment and prepare training datasets, please refer to [preprocessing guide](preprocessing/README.md).
 
 ## 2. Sampling with Pretrained Models
 Our pretrained MCLR checkpoints are available on [Hugging Face](https://huggingface.co/SeanLi0210/MCLR-SiT-XL-2-REPA/blob/main/weights/base_repa.pt).
 
 Please download the checkpoints and place them in the `weights/` directory.
 
-[MCLR_Weights_Demo.ipynb](https://github.com/Morefre/MCLR/blob/MCLR-for-SIT-with-REPA/MCLR_Weights_Demo.ipynb) provides a simple example of loading these checkpoints and comparing MCLR fine-tuning with classifier-free guidance (CFG). Each comparison uses the same initial noise and class labels to visualize changes across CFG scales or fine-tuning iterations.
+[MCLR_Weights_Demo.ipynb](MCLR_Weights_Demo.ipynb) provides a simple example of loading these checkpoints and comparing MCLR fine-tuning with classifier-free guidance (CFG). Each comparison uses the same initial noise and class labels to visualize changes across CFG scales or fine-tuning iterations.
 
 ## 3. Training New Models
 
@@ -125,7 +125,7 @@ accelerate launch --num_processes 1 MCLR_finetuning.py --report-to="wandb" \
 ```
 
 ### 4) Alternative Contrastive Objectives
-We also provide commands for alternative contrastive objectives, including CC-DPO, CCA, and CFM in [run.sh](https://github.com/Morefre/MCLR/blob/MCLR-for-SIT-with-REPA/run.sh).
+We also provide commands for alternative contrastive objectives, including CC-DPO, CCA, and CFM in [run.sh](run.sh).
 
 
 ## 4. Model Evaluation
